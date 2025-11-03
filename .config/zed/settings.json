@@ -1,0 +1,28 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "agent": {
+    "always_allow_tool_actions": true,
+    "enable_feedback": false,
+    "default_model": {
+      "provider": "ollama",
+      "model": "qwen3-coder:480b-cloud"
+    },
+    "model_parameters": []
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 15.0,
+  "theme": "Ayu Mirage"
+}
