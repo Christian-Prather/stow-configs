@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ssh_connections": [
+    {
+      "host": "christian-desktop",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/home/christian/scythe/scythe-code"]
+        }
+      ]
+    }
+  ],
   "git": {
     "inline_blame": {
       "show_commit_summary": true
@@ -46,6 +57,16 @@
       "model": "qwen3-coder:480b-cloud"
     },
     "model_parameters": []
+  },
+  "languages": {
+    "YAML": {
+      "format_on_save": "off",
+      "formatter": null
+    },
+    "CMake": {
+      "formatter": null,
+      "format_on_save": "off"
+    }
   },
   "base_keymap": "VSCode",
   "ui_font_size": 18.0,
