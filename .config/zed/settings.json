@@ -50,11 +50,11 @@
         "context_servers": {}
       }
     },
-    "always_allow_tool_actions": false,
+    "always_allow_tool_actions": true,
     "enable_feedback": false,
     "default_model": {
       "provider": "ollama",
-      "model": "qwen3-coder:480b-cloud"
+      "model": "glm-4.6:cloud"
     },
     "model_parameters": []
   },
